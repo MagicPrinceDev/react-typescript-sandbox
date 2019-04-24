@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import ButtonSimple from './ButtonSimple';
 import ButtonCirculaire from './ButtonCirculaire';
+import FormikForm from './FormikForm'
 import './style.css';
 
 interface AppProps { }
@@ -22,6 +23,13 @@ class App extends Component<AppProps, AppState> {
       <div>
         <ButtonSimple />
         <ButtonCirculaire />
+        <aside >
+        text
+        </aside>
+                <ButtonSimple />
+        <ButtonCirculaire />
+
+        <FormikForm />
       </div>
     );
   }
